@@ -1,20 +1,16 @@
-h1 {
-    color: white;
+:root {
+
 }
-    .hero {
-    background-color:#2f303a;
-    }
-    header {
-        background-color: #ffff;
-    }
-    a[href="mailto:info@devstudio.com"] {color: #2196f3;}
-    a[href="tel:+380961111111"] {color: #757575;}
-    button {
-        background-color: #2196f3;
-    }
-    p {
-        color: #757575;
-    }
-    h3 {
-       color: #212121;
-    }
+
+header {
+  background-color: white;
+}
+.hero {
+  background-color: #2f303a;
+}
+h1 {
+  color: white;
+}
+button {
+  background-color: #2196f3;
+}
