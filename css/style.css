@@ -1,16 +1,19 @@
-:root {
-
-}
-
-header {
-  background-color: white;
-}
-.hero {
-  background-color: #2f303a;
-}
-h1 {
-  color: white;
-}
-button {
-  background-color: #2196f3;
+:root{
+  --comandname: #212121;
+  --comandtext: #757575;
+  --featuresmain: #212121;
+  --featurestext: #757575;
+ --Whatdo: white;
+ --whatdobg: #2F303A;
+ --wathbt: white;
+--wathbtbg: #2196F3;
+--comandbg: #F5F4FA;
+--hedermail: #757575;
+--hederphon: #2196F3;
+--foterstrit: #FFFF;
+--fotermail: rgba(255, 255, 255, 0.60);
+--fotrphon: rgba(255, 255, 255, 0.60);
+--foterbg: #2F303A;
+--swmain: #212121;
+--swtext: #757575;
 }
