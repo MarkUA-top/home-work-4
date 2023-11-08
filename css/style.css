@@ -17,3 +17,56 @@
   --swmain: #212121;
   --swtext: #757575;
 }
+.header {
+}
+.logo {
+}
+.navigation {
+}
+.menu {
+}
+.menu-item {
+}
+.menu-link {
+  color: var(--swmain);
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-link {
+}
+.hero {
+}
+.hero-title {
+}
+.hero-button {
+}
+.section-title {
+}
+.features-list {
+}
+.features-item {
+}
+.features-title {
+}
+.features-text {
+}
+.work-list {
+}
+.work-item {
+}
+.work-img {
+}
+.command-list {
+}
+.command-item {
+}
+.command-img {
+}
+.command-title {
+}
+.command-text {
+}
+.address {
+}
