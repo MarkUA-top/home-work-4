@@ -1,72 +1,142 @@
 :root {
   --comandname: #212121;
   --comandtext: #757575;
-  --featuresmain: #212121;
-  --featurestext: #757575;
-  --Whatdo: white;
   --whatdobg: #2f303a;
   --wathbt: white;
   --wathbtbg: #2196f3;
   --comandbg: #f5f4fa;
   --hedermail: #757575;
-  --hederphon: #2196f3;
-  --foterstrit: #ffff;
   --fotermail: rgba(255, 255, 255, 0.6);
-  --fotrphon: rgba(255, 255, 255, 0.6);
-  --foterbg: #2f303a;
-  --swmain: #212121;
-  --swtext: #757575;
+  --portfoliobutton: #F5F4FA;;
 }
-.header {
+body{
+  font-family: Roboto;
+}
+main{
+  font-family: Roboto;
 }
 .logo {
+
+  font-size: 26px;
+font-family: Raleway;
+font-weight: 700;
+letter-spacing: 0.78px;
+word-wrap: break-word
 }
-.navigation {
+.header-link {
+color:var(--comandname) ;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  word-wrap: break-word
 }
-.menu {
-}
-.menu-item {
-}
-.menu-link {
-  color: var(--swmain);
-}
-.contacts-list {
-}
-.contacts-item {
-}
-.contacts-link {
-}
-.hero {
+.contact-link {
+color:var(--comandtext ) ;
+ font-size: 14px;
+ font-weight: 500;
+ letter-spacing: 0.28px;
+ word-wrap: break-word
 }
 .hero-title {
+  color:var(--wathbt) ;
+ font-size: 44px;
+ font-weight: 900;
+ text-transform: uppercase;
+ line-height: 60px;
+ letter-spacing: 2.64px;
+ word-wrap: break-word
 }
 .hero-button {
-}
-.section-title {
-}
-.features-list {
-}
-.features-item {
+  color:var(--wathbt) ;
+  background-color:var(--wathbtbg);
+ font-size: 16px;
+ font-weight: 700;
+ line-height: 30px;
+ letter-spacing: 0.96px;
+ word-wrap: break-word
 }
 .features-title {
+  color:var(--comandname) ;
+  font-size: 14px;  
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.42px;
+  word-wrap: break-word
 }
 .features-text {
+  color:var(--comandtext) ;
+  font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+word-wrap: break-word
 }
-.work-list {
+.work-title {
+  color:var(--comandname) ;
+ font-size: 36px;
+ font-weight: 700;
+ letter-spacing: 1.08px;
+ word-wrap: break-word
 }
-.work-item {
-}
-.work-img {
-}
-.command-list {
-}
-.command-item {
-}
-.command-img {
+.command-name {
+  color:var(--comandname) ;
+ font-size: 36px;
+ font-weight: 700;
+ letter-spacing: 1.08px;
+ word-wrap: break-word
 }
 .command-title {
+  color:var(--comandname) ;
+ font-size: 16px;
+ font-weight: 500;
+ letter-spacing: 0.48px;
+ word-wrap: break-word
 }
 .command-text {
+  color:var(--comandtext) ;
+ font-size: 16px;
+ font-weight: 400;
+ letter-spacing: 0.48px;
+ word-wrap: break-word
 }
 .address {
+
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 0.42px;
+ word-wrap: break-word
+}
+.contacts-link {
+  color:var(--comandbg) ;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 24px;
+ letter-spacing: 0.42px;
+ word-wrap: break-word
+}
+.pages-button {
+  color:var(--comandname) ;
+  background-color:var(--portfoliobutton) ;
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 26px;
+ letter-spacing: 0.48px;
+ word-wrap: break-word
+}
+.products-name {
+color: var(--comandname);
+ font-size: 18px;
+ font-weight: 700;
+ line-height: 36px;
+ letter-spacing: 1.08px;
+ word-wrap: break-word
+}
+.prosuct-description {
+  color: var(--comandtext);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 30px;
+   letter-spacing: 0.48px;
+   word-wrap: break-word
 }
