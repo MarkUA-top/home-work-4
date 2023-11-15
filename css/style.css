@@ -147,6 +147,7 @@ main {
 }
 .pages-button:hover {
 background-color: var(--wathbtbg);
+color: var(--comandbg);
 } 
 .last{
   background-color: var(--whatdobg);
