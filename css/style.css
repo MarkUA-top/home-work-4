@@ -47,9 +47,6 @@ main {
 }
 .contact-link:hover {
   color: var(--wathbtbg);
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.28px;
 }
 .hero-title {
   color: var(--wathbt);
