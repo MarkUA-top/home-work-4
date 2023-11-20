@@ -9,12 +9,15 @@
   --fotermail: rgba(255, 255, 255, 0.6);
   --portfoliobutton: #f5f4fa;
   --studio: #000;
-  --bghero:#2F303A;
+  --bghero: #2f303a;
+}
+.container {
+  width: 1170;
+  padding: 0 15;
+  margin: 0 auto;
+  outline: blueviolet solid;
 }
 body {
-  font-family: Roboto;
-}
-main {
   font-family: Roboto;
 }
 .logo {
@@ -24,7 +27,7 @@ main {
   font-weight: 700;
   letter-spacing: 0.78px;
 }
-.logocolor{
+.logocolor {
   color: var(--studio);
 }
 .header-link:hover {
@@ -37,7 +40,7 @@ main {
   color: var(--comandname);
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: 0.28px; 
+  letter-spacing: 0.28px;
 }
 .contact-link {
   color: var(--comandtext);
@@ -55,9 +58,8 @@ main {
   text-transform: uppercase;
   line-height: 1.36;
   letter-spacing: 2.64px;
-  text-align: center;
 }
-.hero{
+.hero {
   background-color: var(--whatdobg);
 }
 .hero-button {
@@ -87,14 +89,12 @@ main {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
-  text-align: center;
 }
 .command-name {
   color: var(--comandname);
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
-  text-align: center;
 }
 .command-title {
   color: var(--comandname);
@@ -116,15 +116,15 @@ main {
   letter-spacing: 0.42px;
   font-style: normal;
 }
-.footer-link{
-color: var(--comandtext);
+.footer-link {
+  color: var(--comandtext);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.42px;
 }
-.footer-link:hover{
-color: var(--wathbtbg);
+.footer-link:hover {
+  color: var(--wathbtbg);
 }
 .pages-button {
   color: var(--comandname);
@@ -145,14 +145,14 @@ color: var(--wathbtbg);
   color: var(--comandtext);
   font-size: 16px;
   font-weight: 400;
-  line-height:1.87;
+  line-height: 1.87;
   letter-spacing: 0.48px;
 }
 .pages-button:hover {
-background-color: var(--wathbtbg);
-color: var(--comandbg);
-} 
-.last{
+  background-color: var(--wathbtbg);
+  color: var(--comandbg);
+}
+.last {
   background-color: var(--whatdobg);
 }
 .features {
