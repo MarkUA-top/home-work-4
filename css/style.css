@@ -12,13 +12,17 @@
   --bghero: #2f303a;
 }
 .container {
-  width: 1170;
-  padding: 0 15;
+  width: 1200px;
+  padding: 0 15px;
   margin: 0 auto;
   outline: blueviolet solid;
 }
 body {
   font-family: Roboto;
+}
+.header {
+  padding-top: 23px;
+  padding-bottom: 24px;
 }
 .logo {
   color: var(--wathbtbg);
@@ -61,6 +65,8 @@ body {
 }
 .hero {
   background-color: var(--whatdobg);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-button {
   color: var(--wathbt);
@@ -69,6 +75,10 @@ body {
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.96px;
+}
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .features-title {
   color: var(--comandname);
@@ -84,11 +94,18 @@ body {
   line-height: 1.71;
   letter-spacing: 0.42px;
 }
+.work {
+  padding-bottom: 94px;
+}
 .work-title {
   color: var(--comandname);
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
+}
+.command {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .command-name {
   color: var(--comandname);
@@ -126,6 +143,10 @@ body {
 .footer-link:hover {
   color: var(--wathbtbg);
 }
+.pages{
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
 .pages-button {
   color: var(--comandname);
   background-color: var(--portfoliobutton);
@@ -133,6 +154,9 @@ body {
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.48px;
+}
+.products{
+  padding-bottom: 94px;
 }
 .products-name {
   color: var(--comandname);
@@ -154,6 +178,8 @@ body {
 }
 .last {
   background-color: var(--whatdobg);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .features {
   background-color: var(--wathbt);
