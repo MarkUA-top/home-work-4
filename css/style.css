@@ -12,12 +12,14 @@
   --bghero: #2f303a;
   --border-color: #eee;
   --pf-bg: #fff;
+  --hd-border: #ececec;
 }
 .container {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: transparent solid;
+  outline: blueviolet solid;
+  /* outline: transparent solid; */
 }
 body {
   font-family: Roboto;
@@ -25,6 +27,7 @@ body {
 .header {
   padding-top: 23px;
   padding-bottom: 24px;
+  border: 1px solid var(--hd-border);
 }
 .logo {
   color: var(--wathbtbg);
