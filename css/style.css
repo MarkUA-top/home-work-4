@@ -10,6 +10,8 @@
   --portfoliobutton: #f5f4fa;
   --studio: #000;
   --bghero: #2f303a;
+  --border-color: #eee;
+  --pf-bg: #fff;
 }
 .container {
   width: 1200px;
@@ -57,6 +59,7 @@ body {
 }
 .hero-title {
   color: var(--wathbt);
+  text-align: centerx1;
   font-size: 44px;
   font-weight: 900;
   text-transform: uppercase;
@@ -64,7 +67,7 @@ body {
   letter-spacing: 2.64px;
 }
 .hero {
-  background-image:url(../image/heroimg.png);
+  background-image: url(../image/heroimg.png);
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -99,6 +102,7 @@ body {
 }
 .work-title {
   color: var(--comandname);
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
@@ -109,9 +113,16 @@ body {
 }
 .command-name {
   color: var(--comandname);
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
+}
+.command-item {
+  background-color: var(--wathbt);
+  width: 270px;
+  height: 368px;
+  text-align: center;
 }
 .command-title {
   color: var(--comandname);
@@ -157,6 +168,12 @@ body {
 }
 .products {
   padding-bottom: 94px;
+}
+.products-item {
+  background-color: var(--pf-bg);
+  border: 1px solid var(--border-color);
+  width: 370px;
+  height: 404px;
 }
 .products-name {
   color: var(--comandname);
