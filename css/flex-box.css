@@ -19,9 +19,9 @@
 }
 /* portfolio */
 .pages-list {
-    display: flex;
+  display: flex;
 }
 .products-list {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
