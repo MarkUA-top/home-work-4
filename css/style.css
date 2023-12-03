@@ -64,7 +64,7 @@ body {
   letter-spacing: 2.64px;
 }
 .hero {
-  background-color: var(--whatdobg);
+  background-image:url(../image/heroimg.png);
   padding-top: 200px;
   padding-bottom: 200px;
 }
