@@ -209,10 +209,8 @@ body {
   padding-bottom: 50px;
 }
 .pages-list {
-  margin-left: auto;
-  margin-right: auto;
-  width: 575px;
   display: flex;
+  justify-content: center;
   gap: 8px;
 }
 .pages-button {
