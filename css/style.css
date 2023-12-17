@@ -217,6 +217,7 @@ body {
   color: var(--comandname);
   background-color: var(--portfoliobutton);
   display: block;
+  height: 38px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
