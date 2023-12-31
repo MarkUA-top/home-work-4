@@ -134,7 +134,7 @@ body {
 }
 .work-list {
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
 }
 .work-title {
   color: var(--comandname);
