@@ -97,6 +97,8 @@ body {
 }
 .hero {
   background-image: url(../image/heroimg.png);
+  background-repeat: no-repeat;
+  background-position: center;
   padding-top: 200px;
   padding-bottom: 200px;
 }
