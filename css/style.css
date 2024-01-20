@@ -282,6 +282,8 @@ gap: 30px;
 }
 .products-photo {
   margin-bottom: 20px;
+  width: 368px;
+  align-items: center;
 }
 .products-name {
   color: var(--comandname);
