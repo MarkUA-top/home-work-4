@@ -96,7 +96,7 @@ body {
   letter-spacing: 2.64px;
 }
 .hero {
-  background-image: url(../image/heroimg.png);
+  background-image: url(../image/heroimg.webp);
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 200px;
@@ -127,19 +127,19 @@ body {
   gap: 30px;
 }
 .features-item:nth-child(1)::before {
-content: url('../image/Group\ 1.png');
+content: url('../image/Group\ 1.webp');
 display: block;
 }
 .features-item:nth-child(2)::before {
-  content: url('../image/Group\ 2.png');
+  content: url('../image/Group\ 2.webp');
   display: block;
 }
 .features-item:nth-child(3)::before {
-  content: url('../image/Group\ 3.png');
+  content: url('../image/Group\ 3.webp');
   display: block;
 }
 .features-item:nth-child(4)::before {
-  content: url('../image/Group\ 4.png');
+  content: url('../image/Group\ 4.webp');
   display: block;
 }
 .features-title {
