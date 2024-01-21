@@ -127,19 +127,19 @@ body {
   gap: 30px;
 }
 .features-item:nth-child(1)::before {
-  content: url("../image/Group\ 1.webp");
+  content: url("../image/group1.webp");
   display: block;
 }
 .features-item:nth-child(2)::before {
-  content: url("../image/Group\ 2.webp");
+  content: url("../image/group2.webp");
   display: block;
 }
 .features-item:nth-child(3)::before {
-  content: url("../image/Group\ 3.webp");
+  content: url("../image/group3.webp");
   display: block;
 }
 .features-item:nth-child(4)::before {
-  content: url("../image/Group\ 4.webp");
+  content: url("../image/group4.webp");
   display: block;
 }
 .features-title {
