@@ -96,7 +96,11 @@ body {
   letter-spacing: 2.64px;
 }
 .hero {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),  url(../image/heroimg.webp);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../image/heroimg.webp);
   background-repeat: no-repeat;
   position: center, center;
   width: 1600px;
@@ -218,6 +222,40 @@ body {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.48px;
+}
+.ever-client {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: var(--wathbt);
+}
+.evar-title {
+  color: var(--comandname);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
+.client-list {
+  display: flex;
+  gap: 30px;
+}
+.client-item {
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+}
+.сlient-img {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+.clietn-img:hover {
+  fill: #2196f3;
 }
 .address {
   color: var(--comandbg);
