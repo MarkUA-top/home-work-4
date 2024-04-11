@@ -6,7 +6,7 @@
   --wathbtbg: #2196f3;
   --comandbg: #f5f4fa;
   --hedermail: #757575;
-  --fotermail: rgba(255, 255, 255, 0.6);
+  --fotermail: #afb1b8;
   --portfoliobutton: #f5f4fa;
   --studio: #000;
   --bghero: #2f303a;
@@ -54,7 +54,7 @@ body {
   color: var(--studio);
 }
 .header-navagation {
-  margin-right: 344px;
+  margin-right: auto;
 }
 .header-list {
   display: flex;
@@ -72,6 +72,13 @@ body {
 .header-contacts {
   display: flex;
   gap: 50px;
+}
+.header-contacts-icon {
+fill: var(--comandtext);
+margin-right: 10px;
+}
+.header-contacts-icon:hover {
+fill: var(--wathbtbg);
 }
 .contact-link {
   color: var(--comandtext);
@@ -239,23 +246,43 @@ body {
   letter-spacing: 1.08px;
   margin-bottom: 50px;
 }
+.client-text {
+  color: var(--comandname);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  margin-bottom: 50px;
+}
 .client-list {
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 .client-item {
   width: 170px;
   height: 92px;
   border-radius: 4px;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--fotermail);
 }
-.сlient-img {
+.client-item:hover {
+  border: 1px solid var(--wathbtbg);
+}
+
+.client-logo {
+  fill: var(--fotermail);
   width: 106px;
   height: 60px;
-  fill: #afb1b8;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
 }
-.clietn-img:hover {
-  fill: #2196f3;
+
+.client-logo:hover {
+  fill: var(--wathbtbg);
 }
 .address {
   color: var(--comandbg);
