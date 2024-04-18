@@ -413,6 +413,12 @@ body {
 .command {
   background-color: var(--portfoliobutton);
 }
+.flex {
+  display: flex;
+}
+.footer-icons-box {
+  margin-top: 12px;
+}
 .logofooter {
   color: var(--wathbt);
 }
