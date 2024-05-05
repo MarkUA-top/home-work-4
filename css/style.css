@@ -419,7 +419,7 @@ body {
 .product-position {
   position: relative;
 }
-.product-text:hover {
+.product-position:hover .product-text {
   opacity: 1;
   color: #fff;
   font-family: Roboto;
