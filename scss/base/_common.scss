@@ -1,0 +1,20 @@
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: transparent solid;
+}
+
+.grid-list {
+  display: flex;
+  justify-content: center;
+  gap: var(--grid-gap);
+}
+
+.grid-item {
+  width: calc((100% - var(--grid-gap) * var(--cards)) / var(--cards));
+}
+
+body {
+  font-family: Roboto;
+}

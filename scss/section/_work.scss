@@ -1,0 +1,43 @@
+.work {
+  padding-bottom: 94px;
+  background-color: var(--wathbt);
+}
+
+.work-list {
+  display: flex;
+  gap: 30px;
+}
+
+.work-title {
+  color: var(--comandname);
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+
+.work-item {
+  position: relative;
+}
+
+.work-position {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+  background: rgba(47, 48, 58, 0.8);
+  left: 0;
+}
+
+.work-text {
+  color: var(--pf-bg);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
