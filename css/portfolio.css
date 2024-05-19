@@ -257,6 +257,7 @@ body {
 .products-name {
   color: var(--comandname);
   padding-left: 24px;
+  margin-top: 20px;
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
