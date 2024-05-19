@@ -1,7 +1,7 @@
 .header {
   padding-top: 23px;
   padding-bottom: 24px;
-  border: 1px solid var(--hd-border);
+  border: 1px solid $hd-border;
 }
 
 .hd-box {
@@ -10,7 +10,7 @@
 }
 
 .logo {
-  color: var(--wathbtbg);
+  color: $wathbtbg;
   margin-right: 93px;
   font-size: 26px;
   font-family: Raleway;
@@ -19,7 +19,7 @@
 }
 
 .logocolor {
-  color: var(--studio);
+  color: $studio;
 }
 
 .header-navagation {
@@ -32,7 +32,7 @@
 }
 
 .header-link:hover {
-  color: var(--wathbtbg);
+  color: $wathbtbg;
 }
 
 .header-item {
@@ -48,11 +48,11 @@
   margin-top: 27px;
   height: 4px;
   justify-content: center;
-  background-color: #2196F3;
+  background-color: $wathbtbg;
 }
 
 .header-link {
-  color: var(--comandname);
+  color: $comandname;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
@@ -65,21 +65,21 @@
 }
 
 .header-contacts-icon {
-  fill: var(--comandtext);
+  fill: $comandtext;
   margin-right: 10px;
 }
 
 .header-contacts-icon:hover {
-  fill: var(--wathbtbg);
+  fill: $wathbtbg;
 }
 
 .contact-link {
-  color: var(--comandtext);
+  color: $comandtext;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
 }
 
 .contact-link:hover {
-  color: var(--wathbtbg);
+  color: $wathbtbg;
 }

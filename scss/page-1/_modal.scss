@@ -1,11 +1,11 @@
 .modal-box {
     border-radius: 4px;
-    background: #fff;
+    background: $pf-bg;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   }
   .modal-title {
-    color: var(--feauturesmain);
+    color: $feauturesmain;
     text-align: center;
     font-size: 20px;
     font-style: normal;
@@ -16,7 +16,7 @@
   }
   .modal-window {
     border-radius: 4px;
-    background: #fff;
+    background: $pf-bg;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
       0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
     position: absolute;
@@ -55,7 +55,7 @@
   }
   .modal-close-button:hover,
   .modal-close-button:focus {
-    fill: var(--whathbtbg);
+    fill: $whathbtbg;
   }
   .modal-list {
     display: flex;
@@ -64,10 +64,10 @@
     margin-bottom: 20px;
   }
   .modal-close-icon:hover {
-    fill: var(--wathbtbg);
+    fill: $wathbtbg;
   }
   .modal-name {
-    color: var(--headermail);
+    color: $headermail;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -92,7 +92,7 @@
   }
   .modal-input:focus {
     outline: none;
-    border: 1px solid var(--wathbtbg);
+    border: 1px solid $wathbtbg;
   }
   .modal-icons {
     position: absolute;
@@ -101,7 +101,7 @@
     fill: #212121;
   }
   .modal-icons:focus {
-    fill: var(--wathbtbg);
+    fill: $wathbtbg;
   }
   .modal-comment {
     width: 448px;
@@ -118,7 +118,7 @@
   }
   .modal-comment:focus {
     outline: none;
-    border: 1px solid var(--wathbtbg);
+    border: 1px solid $athbtbg;
   }
   .modal-label {
     display: flex;
@@ -139,7 +139,7 @@
     color: #2196f3;
   }
   .modal-button {
-    color: #fff;
+    color: $pf-bg;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;

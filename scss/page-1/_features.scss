@@ -1,7 +1,7 @@
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--wathbt);
+  background-color: $pf-bg;
 }
 
 .features-list {
@@ -30,7 +30,7 @@
 }
 
 .features-title {
-  color: var(--comandname);
+  color: $comandname;
   margin-bottom: 10px;
   margin-top: 30px;
   font-size: 14px;
@@ -40,7 +40,7 @@
 }
 
 .features-text {
-  color: var(--comandtext);
+  color: $comandtext;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;

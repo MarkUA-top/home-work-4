@@ -1,6 +1,6 @@
 .work {
   padding-bottom: 94px;
-  background-color: var(--wathbt);
+  background-color: $wathbt;
 }
 
 .work-list {
@@ -9,7 +9,7 @@
 }
 
 .work-title {
-  color: var(--comandname);
+  color: $comandname;
   text-align: center;
   margin-bottom: 50px;
   font-size: 36px;
@@ -35,7 +35,7 @@
 }
 
 .work-text {
-  color: var(--pf-bg);
+  color: $pf-bg;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;

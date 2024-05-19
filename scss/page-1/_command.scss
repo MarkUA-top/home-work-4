@@ -1,7 +1,7 @@
 .command {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--portfoliobutton);
+  background-color: $portfoliobutton;
 }
 
 .command-list {
@@ -10,7 +10,7 @@
 }
 
 .command-name {
-  color: var(--comandname);
+  color: $comandname;
   text-align: center;
   margin-bottom: 50px;
   font-size: 36px;
@@ -19,7 +19,7 @@
 }
 
 .command-item {
-  background-color: var(--wathbt);
+  background-color: $pf-bg;
   width: 270px;
   height: 428px;
   text-align: center;
@@ -35,7 +35,7 @@
 }
 
 .command-title {
-  color: var(--comandname);
+  color: $comandname;
   margin-bottom: 10px;
   font-size: 16px;
   font-weight: 500;
@@ -43,7 +43,7 @@
 }
 
 .command-text {
-  color: var(--comandtext);
+  color: $comandtext;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.48px;
@@ -59,7 +59,7 @@
 
 .command-icon-item:hover {
   border-radius: 50%;
-  background-color: #2196f3;
+  background-color: $wathbtbg;
 }
 
 .command-icon-link {
@@ -71,11 +71,11 @@
 }
 
 .command-icon {
-  fill: var(--fotermail);
+  fill: $fotermail;
   width: 20px;
   height: 20px;
 }
 
 .command-icon:hover {
-  fill: var(--pf-bg);
+  fill: $pf-bg;
 }

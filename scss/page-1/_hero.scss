@@ -1,5 +1,5 @@
 .hero-title {
-  color: var(--wathbt);
+  color: $pf-bg;
   margin-left: auto;
   margin-right: auto;
   width: 696px;
@@ -28,8 +28,8 @@
 }
 
 .hero-button {
-  color: var(--wathbt);
-  background-color: var(--wathbtbg);
+  color: $pf-bg;
+  background-color: $wathbtbg;
   display: block;
   margin-left: auto;
   margin-right: auto;
