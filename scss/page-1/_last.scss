@@ -1,11 +1,10 @@
-.last {
-    background-color: $whatdobg;
-    display: flex;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+.footer {
+  background-color: $whatdobg;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
-.address {
+  &__address {
     color: $comandbg;
     margin-top: 20px;
     font-size: 14px;
@@ -14,7 +13,7 @@
     letter-spacing: 0.42px;
     font-style: normal;
   }
-  .footer-link {
+  &__link {
     color: $comandtext;
     margin-top: 9px;
     font-size: 14px;
@@ -22,20 +21,24 @@
     line-height: 1.71;
     letter-spacing: 0.42px;
   }
-  .footer-link:hover {
+  &__link:hover {
     color: $wathbtbg;
   }
-  .footer-icons-box {
-    margin-top: 12px;
+  &__logo {
+    color: $wathbtbg;
+    margin-right: 93px;
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 0.78px;
   }
-  .logofooter {
+  &__studio {
     color: $pf-bg;
   }
-  .footer-icon-list {
-    display: flex;
-    gap: 10px;
+  &__icons__box {
+    margin-top: 12px;
   }
-  .footer-icons-text {
+  &__icons__text {
     color: $pf-bg;
     font-size: 14px;
     font-weight: 700;
@@ -43,34 +46,34 @@
     text-transform: uppercase;
     margin-bottom: 20px;
   }
-  .footer-icons-list {
+  &__icons__list {
     display: flex;
     gap: 10px;
   }
-  .footer-icons-list-item {
+  &__icons__list__item {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
   }
-  .footer-icons-link {
+  &__icons__link {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
     height: 44px;
   }
-  .footer-icons {
+  &__icons {
     fill: $pf-bg;
     width: 20px;
     height: 20px;
   }
-  .footer-icons-list-item:hover {
+  &__icons__list__item:hover {
     background-color: $wathbtbg;
   }
-  .footer-form {
+  &__form {
     padding-top: 12px;
     margin-left: 80px;
   }
-  .footer-form-title {
+  &__form__title {
     color: $pf-bg;
     font-size: 14px;
     font-style: normal;
@@ -80,13 +83,13 @@
     text-transform: uppercase;
     margin-bottom: 20px;
   }
-  
-  .footer-form-container {
+
+  &__form__container {
     display: flex;
     gap: 12px;
   }
-  
-  .footer-form-input {
+
+  &__form__input {
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     background: rgba(33, 150, 243, 0.01);
@@ -99,25 +102,25 @@
     line-height: 1.25;
     letter-spacing: 0.48px;
   }
-  .footer-form-input:focus {
+  &__form__input:focus {
     outline: none;
-    border: 1px solid $pf-bg;
+    border: 1px solid $wathbtbg;
   }
-  .footer-form-input::placeholder {
-    color: $commandtext;
+  &__form__input::placeholder {
+    color: $comandtext;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.25;
     letter-spacing: 0.48px;
   }
-  .footer-form-button {
+  &__form__button {
     color: $pf-bg;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;
     letter-spacing: 0.96px;
     padding: 10px 28px;
-    background-color: $pf-bg;
+    background-color: $wathbtbg;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -125,13 +128,14 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: none;
   }
-  .footer-form-button:hover,
-  .footer-form-button:focus {
+  &__form__button:hover,
+  &__form__button:focus {
     background-color: $wathbtbg;
   }
-  .footer-form-icon {
+  &__form__icon {
     fill: $pf-bg;
   }
   .flex {
     display: flex;
   }
+}
