@@ -39,7 +39,7 @@
     position: relative;
   }
 
-  &__link::after {
+  &__subactive::after {
     content: "";
     display: block;
     position: absolute;
@@ -57,48 +57,14 @@
     font-weight: 500;
     letter-spacing: 0.28px;
   }
-
-  // &__contact__list {
-  //   display: flex;
-  //   gap: 50px;
-  // }
-
-  // &__contacts__icon {
-  //   fill: $comandtext;
-  //   margin-right: 10px;
-  //   align-items: center;
-  // }
-
-  // &__contacts__icon:hover {
-  //   fill: $wathbtbg;
-  // }
-
-  // &__contact__link {
-  //   color: $comandtext;
-  //   font-size: 14px;
-  //   font-weight: 500;
-  //   letter-spacing: 0.28px;
-  // }
-
-  // &__contact-link:hover {
-  //   color: $wathbtbg;
-  // }
-  &__contact__list {
+  &__sublist {
     display: flex;
     align-items: center;
     gap: 30px;
   }
-  &__contact {
-  }
-  &__contact__link {
-  }
-  &__contacts__icon {
+  &__subicon {
     fill: $comandtext;
     margin-right: 10px;
     align-items: center;
-  }
-  &__svg__one {
-  }
-  &__svg__two {
   }
 }
