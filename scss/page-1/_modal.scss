@@ -45,18 +45,16 @@
   top: 8px;
   right: 8px;
 }
-&__close:hover,
-&__close:focus {
-  fill: $wathbtbg;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 &__list {
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-bottom: 20px;
 }
-&__closeicon:hover {
+&__icon:hover {
+  border: 1px solid $wathbtbg;
+}
+&__icon:hover &__closeicon {
   fill: $wathbtbg;
 }
 &__name {
