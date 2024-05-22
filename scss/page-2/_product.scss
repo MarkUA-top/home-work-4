@@ -1,13 +1,12 @@
-.products {
-  padding-bottom: 94px;
-}
+.product {
+padding-bottom: 79px;
 
-.products-list {
+&__list {
   --grid-gap: 30px;
   flex-wrap: wrap;
 }
 
-.products-item {
+&__item {
   background-color: $pf-bg;
   border: 1px solid $border-color;
   position: relative;
@@ -17,12 +16,13 @@
   --cards: 9;
 }
 
-.products-item:hover {
+&__item:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.product-overlay {
+&__overlay {
   position: relative;
   width: 370px;
   height: 294px;
@@ -31,7 +31,7 @@
   overflow: hidden;
 }
 
-.product-position {
+&__position {
   position: absolute;
   top: 0;
   left: 0;
@@ -44,12 +44,12 @@
   justify-content: center;
 }
 
-.product-overlay:hover .product-position {
+&__overlay:hover &__position {
   transform: translatey(0);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.product-text {
+&__text {
   color: $pf-bg;
   font-size: 18px;
   font-weight: 400;
@@ -58,12 +58,12 @@
   width: 322px;
 }
 
-.products-photo {
+&__photo {
   margin-bottom: 20px;
   align-items: center;
 }
 
-.products-name {
+&__name {
   color: $comandname;
   padding-left: 24px;
   margin-top: 20px;
@@ -72,11 +72,12 @@
   line-height: 2;
   letter-spacing: 1.08px;
 }
-.proвuct-description {
+&__description {
   color: $comandtext;
   padding-left: 24px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.87;
   letter-spacing: 0.48px;
+}
 }

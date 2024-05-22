@@ -30,6 +30,16 @@
     gap: 50px;
   }
 
+  &__link {
+    color: $comandname;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
+
   &__link:hover {
     color: $wathbtbg;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -51,8 +61,8 @@
     background-color: $wathbtbg;
   }
 
-  &__link {
-    color: $comandname;
+  &__sublink {
+    color: $headermail;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.28px;
@@ -63,8 +73,16 @@
     gap: 30px;
   }
   &__subicon {
-    fill: $comandtext;
+    fill: $headermail;
     margin-right: 10px;
     align-items: center;
+  }
+  &__sublink:hover {
+    color: $wathbtbg;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__sublink:hover &__subicon {
+    fill: $wathbtbg;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
