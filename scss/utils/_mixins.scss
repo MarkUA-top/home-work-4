@@ -1,0 +1,9 @@
+@mixin animations($property) {
+  transition-property: $property;
+  transition-duration: 250ms;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@mixin section-padding($top: 0, $bottom: 0) {
+    padding-top: $top;
+    padding-bottom: $bottom;
+}
