@@ -32,17 +32,13 @@
   color: $comandname;
   margin-bottom: 10px;
   margin-top: 30px;
-  font-size: 14px;
-  font-weight: 700;
+  @extend %title-text;
   text-transform: uppercase;
-  letter-spacing: 0.42px;
 }
 
 &__text {
   color: $comandtext;
-  font-size: 14px;
-  font-weight: 400;
+  @extend %text;
   line-height: 1.71;
-  letter-spacing: 0.42px;
 }
 }
