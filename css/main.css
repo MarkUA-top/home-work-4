@@ -53,7 +53,7 @@ body {
   font-family: Roboto;
 }
 
-.footer__link, .footer__address, .features__text, .features__title, .header__sublink, .header__link {
+.modal__text, .footer__link, .footer__address, .features__text, .features__title, .header__sublink, .header__link {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
@@ -65,13 +65,13 @@ body {
   letter-spacing: 0.48px;
 }
 
-.modal__text, .modal__comment, .footer__subinput::placeholder, .footer__subinput, .command__text, .command__title {
+.footer__subinput::placeholder, .footer__subinput, .command__text, .command__title {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.48px;
 }
 
-.modal__button, .modal__name, .modal__title, .footer__subbutton, .footer__subtitle, .footer__subtext, .work__text, .hero__button {
+.footer__subbutton, .footer__subtitle, .footer__subtext, .work__text, .hero__button {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.54px;
@@ -87,6 +87,24 @@ body {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
+}
+
+.modal__title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+}
+
+.modal__comment, .modal__name {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.12px;
+}
+
+.modal__button {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.96px;
 }
 
 .header {

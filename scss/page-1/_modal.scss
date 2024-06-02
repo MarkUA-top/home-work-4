@@ -10,7 +10,7 @@
     text-align: center;
 
     font-style: normal;
-    @extend %text-product-name;
+    @extend %modal-title;
     line-height: normal;
 
     margin-bottom: 12px;
@@ -63,7 +63,7 @@
     display: flex;
     flex-direction: column;
     gap: 4px;
-    @extend %text-product-name;
+    @extend %modal-text;
   }
   &__input {
     padding-left: 35px;
@@ -92,7 +92,7 @@
     border: 1px solid $comandtext;
     padding: 12px 16px;
     color: $comandtext;
-    @extend %text-button;
+    @extend %modal-text;
     line-height: 1.17;
     resize: none;
   }
@@ -109,7 +109,7 @@
   &__text {
     color: $headermail;
     font-family: Roboto;
-    @extend %text-button;
+    @extend %text;
     font-style: normal;
     line-height: 171.429%;
   }
@@ -118,7 +118,7 @@
   }
   &__button {
     color: $pf-bg;
-    @extend %text-product-name;
+    @extend %modal-button;
     line-height: 1.87;
     border-radius: 4px;
     background-color: $wathbtbg;
