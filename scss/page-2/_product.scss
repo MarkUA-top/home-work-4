@@ -51,10 +51,8 @@ padding-bottom: 79px;
 
 &__text {
   color: $pf-bg;
-  font-size: 18px;
-  font-weight: 400;
+  @extend %text-button;
   line-height: 28px;
-  letter-spacing: 0.54px;
   width: 322px;
 }
 
@@ -67,17 +65,13 @@ padding-bottom: 79px;
   color: $comandname;
   padding-left: 24px;
   margin-top: 20px;
-  font-size: 18px;
-  font-weight: 700;
+  @extend %text-product-name;
   line-height: 2;
-  letter-spacing: 1.08px;
 }
 &__description {
   color: $comandtext;
   padding-left: 24px;
-  font-size: 16px;
-  font-weight: 400;
+  @extend %text-button;
   line-height: 1.87;
-  letter-spacing: 0.48px;
 }
 }

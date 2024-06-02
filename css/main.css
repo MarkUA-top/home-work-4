@@ -53,19 +53,37 @@ body {
   font-family: Roboto;
 }
 
-.features__text, .features__title {
+.footer__link, .footer__address, .features__text, .features__title, .header__sublink, .header__link {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
 }
 
-.command__text, .command__title {
+.footer__subinput::-moz-placeholder {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.48px;
 }
 
-.client__text, .command__name {
+.modal__text, .modal__comment, .footer__subinput::placeholder, .footer__subinput, .command__text, .command__title {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+}
+
+.modal__button, .modal__name, .modal__title, .footer__subbutton, .footer__subtitle, .footer__subtext, .work__text, .hero__button {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.54px;
+}
+
+.footer__logo, .header__logo {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+
+.client__text, .command__name, .work__title, .hero__title {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
@@ -83,10 +101,7 @@ body {
 .header__logo {
   color: #2196f3;
   margin-right: 93px;
-  font-size: 26px;
   font-family: Raleway;
-  font-weight: 700;
-  letter-spacing: 0.78px;
 }
 .header__logocolor {
   color: #000;
@@ -101,11 +116,8 @@ body {
 .header__link {
   color: #212121;
   font-family: Roboto;
-  font-size: 14px;
   font-style: normal;
-  font-weight: 500;
   line-height: normal;
-  letter-spacing: 0.28px;
 }
 .header__link:hover {
   color: #2196f3;
@@ -127,9 +139,6 @@ body {
 }
 .header__sublink {
   color: #757575;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.28px;
 }
 .header__sublist {
   display: flex;
@@ -167,11 +176,8 @@ body {
   width: 696px;
   text-align: center;
   margin-bottom: 30px;
-  font-size: 44px;
-  font-weight: 900;
   text-transform: uppercase;
   line-height: 1.36;
-  letter-spacing: 2.64px;
 }
 .hero__button {
   color: #fff;
@@ -181,10 +187,7 @@ body {
   margin-right: auto;
   width: 216px;
   height: 50px;
-  font-size: 16px;
-  font-weight: 700;
   line-height: 1.87;
-  letter-spacing: 0.96px;
   border: none;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -238,9 +241,6 @@ body {
   color: #212121;
   text-align: center;
   margin-bottom: 50px;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.08px;
 }
 .work__item {
   position: relative;
@@ -259,9 +259,6 @@ body {
 }
 .work__text {
   color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.42px;
   text-transform: uppercase;
 }
 
@@ -373,19 +370,13 @@ body {
 .footer__address {
   color: #f5f4fa;
   margin-top: 20px;
-  font-size: 14px;
-  font-weight: 400;
   line-height: 1.71;
-  letter-spacing: 0.42px;
   font-style: normal;
 }
 .footer__link {
   color: #afb1b8;
   margin-top: 9px;
-  font-size: 14px;
-  font-weight: 400;
   line-height: 1.71;
-  letter-spacing: 0.42px;
 }
 .footer__link:hover {
   color: #2196f3;
@@ -394,10 +385,7 @@ body {
 .footer__logo {
   color: #2196f3;
   margin-right: 93px;
-  font-size: 26px;
   font-family: Raleway;
-  font-weight: 700;
-  letter-spacing: 0.78px;
 }
 .footer__studio {
   color: #fff;
@@ -407,9 +395,6 @@ body {
 }
 .footer__subtext {
   color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -443,11 +428,8 @@ body {
 }
 .footer__subtitle {
   color: #fff;
-  font-size: 14px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -463,10 +445,7 @@ body {
   padding: 15px 16px;
   width: 358px;
   color: #fff;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.25;
-  letter-spacing: 0.48px;
 }
 .footer__subinput:focus {
   outline: none;
@@ -474,24 +453,15 @@ body {
 }
 .footer__subinput::-moz-placeholder {
   color: #afb1b8;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.25;
-  letter-spacing: 0.48px;
 }
 .footer__subinput::placeholder {
   color: #afb1b8;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.25;
-  letter-spacing: 0.48px;
 }
 .footer__subbutton {
   color: #fff;
-  font-size: 16px;
-  font-weight: 700;
   line-height: 1.87;
-  letter-spacing: 0.96px;
   padding: 10px 28px;
   background-color: #2196f3;
   display: flex;
@@ -520,11 +490,8 @@ body {
 .modal__title {
   color: #212121;
   text-align: center;
-  font-size: 20px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.6px;
   margin-bottom: 12px;
 }
 .modal__window {
@@ -568,11 +535,8 @@ body {
 }
 .modal__name {
   color: #757575;
-  font-size: 12px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
-  letter-spacing: 0.12px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -605,10 +569,7 @@ body {
   border: 1px solid #afb1b8;
   padding: 12px 16px;
   color: #afb1b8;
-  font-size: 12px;
-  font-weight: 400;
   line-height: 1.17;
-  letter-spacing: 0.12px;
   resize: none;
 }
 .modal__comment:focus {
@@ -624,21 +585,15 @@ body {
 .modal__text {
   color: #757575;
   font-family: Roboto;
-  font-size: 14px;
   font-style: normal;
-  font-weight: 400;
   line-height: 171.429%;
-  letter-spacing: 0.42px;
 }
 .modal__link {
   color: #2196f3;
 }
 .modal__button {
   color: #fff;
-  font-size: 16px;
-  font-weight: 700;
   line-height: 1.87;
-  letter-spacing: 0.96px;
   border-radius: 4px;
   background-color: #2196f3;
   box-shadow: 0px 4px 4px 0px #2f303a;

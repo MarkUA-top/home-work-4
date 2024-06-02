@@ -33,12 +33,12 @@
   &__title {
     color: $comandname;
     margin-bottom: 10px;
-    @extend %text-2;
+    @extend %text-button;
   }
 
   &__text {
     color: $comandtext;
-    @extend %text-2;
+    @extend %text-button;
   }
   &__sublist {
     margin-top: 16px;

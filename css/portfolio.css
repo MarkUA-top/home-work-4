@@ -53,6 +53,36 @@ body {
   font-family: Roboto;
 }
 
+.footer__link, .footer__address, .pages__button, .header__sublink, .header__link {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.footer__subinput::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+}
+
+.footer__subinput::placeholder, .footer__subinput, .product__description, .product__text {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+}
+
+.footer__subbutton, .footer__subtitle, .footer__subtext, .product__name {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.54px;
+}
+
+.footer__logo, .header__logo {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+
 .header {
   padding-top: 23px;
   padding-bottom: 24px;
@@ -65,10 +95,7 @@ body {
 .header__logo {
   color: #2196f3;
   margin-right: 93px;
-  font-size: 26px;
   font-family: Raleway;
-  font-weight: 700;
-  letter-spacing: 0.78px;
 }
 .header__logocolor {
   color: #000;
@@ -83,11 +110,8 @@ body {
 .header__link {
   color: #212121;
   font-family: Roboto;
-  font-size: 14px;
   font-style: normal;
-  font-weight: 500;
   line-height: normal;
-  letter-spacing: 0.28px;
 }
 .header__link:hover {
   color: #2196f3;
@@ -109,9 +133,6 @@ body {
 }
 .header__sublink {
   color: #757575;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.28px;
 }
 .header__sublist {
   display: flex;
@@ -146,10 +167,7 @@ body {
   background-color: #f5f4fa;
   display: block;
   height: 38px;
-  font-size: 16px;
-  font-weight: 500;
   line-height: 1.62;
-  letter-spacing: 0.48px;
   border-radius: 4px;
   border: none;
   padding: 6px 25px;
@@ -195,7 +213,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(33, 150, 243, 0.9);
+  background: #2196f3;
   transform: translatey(100%);
   display: flex;
   align-items: center;
@@ -207,10 +225,7 @@ body {
 }
 .product__text {
   color: #fff;
-  font-size: 18px;
-  font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0.54px;
   width: 322px;
 }
 .product__photo {
@@ -221,18 +236,12 @@ body {
   color: #212121;
   padding-left: 24px;
   margin-top: 20px;
-  font-size: 18px;
-  font-weight: 700;
   line-height: 2;
-  letter-spacing: 1.08px;
 }
 .product__description {
   color: #afb1b8;
   padding-left: 24px;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.87;
-  letter-spacing: 0.48px;
 }
 
 .footer {
@@ -244,19 +253,13 @@ body {
 .footer__address {
   color: #f5f4fa;
   margin-top: 20px;
-  font-size: 14px;
-  font-weight: 400;
   line-height: 1.71;
-  letter-spacing: 0.42px;
   font-style: normal;
 }
 .footer__link {
   color: #afb1b8;
   margin-top: 9px;
-  font-size: 14px;
-  font-weight: 400;
   line-height: 1.71;
-  letter-spacing: 0.42px;
 }
 .footer__link:hover {
   color: #2196f3;
@@ -265,10 +268,7 @@ body {
 .footer__logo {
   color: #2196f3;
   margin-right: 93px;
-  font-size: 26px;
   font-family: Raleway;
-  font-weight: 700;
-  letter-spacing: 0.78px;
 }
 .footer__studio {
   color: #fff;
@@ -278,9 +278,6 @@ body {
 }
 .footer__subtext {
   color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -314,11 +311,8 @@ body {
 }
 .footer__subtitle {
   color: #fff;
-  font-size: 14px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.42px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -334,10 +328,7 @@ body {
   padding: 15px 16px;
   width: 358px;
   color: #fff;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.25;
-  letter-spacing: 0.48px;
 }
 .footer__subinput:focus {
   outline: none;
@@ -345,24 +336,15 @@ body {
 }
 .footer__subinput::-moz-placeholder {
   color: #afb1b8;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.25;
-  letter-spacing: 0.48px;
 }
 .footer__subinput::placeholder {
   color: #afb1b8;
-  font-size: 16px;
-  font-weight: 400;
   line-height: 1.25;
-  letter-spacing: 0.48px;
 }
 .footer__subbutton {
   color: #fff;
-  font-size: 16px;
-  font-weight: 700;
   line-height: 1.87;
-  letter-spacing: 0.96px;
   padding: 10px 28px;
   background-color: #2196f3;
   display: flex;

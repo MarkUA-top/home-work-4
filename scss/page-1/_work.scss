@@ -11,9 +11,7 @@
   color: $comandname;
   text-align: center;
   margin-bottom: 50px;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 1.08px;
+  @extend %title-text;
 }
 
 &__item {
@@ -35,9 +33,7 @@
 
 &__text {
   color: $pf-bg;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 0.42px;
+  @extend %text-product-name;
   text-transform: uppercase;
 }
 }
