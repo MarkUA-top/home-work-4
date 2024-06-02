@@ -69,7 +69,8 @@
   &__subicon {
     fill: $headermail;
     margin-right: 10px;
-    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   &__sublink:hover {
     color: $wathbtbg;

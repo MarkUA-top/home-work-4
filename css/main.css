@@ -166,7 +166,8 @@ body {
 .header__subicon {
   fill: #757575;
   margin-right: 10px;
-  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .header__sublink:hover {
   color: #2196f3;
