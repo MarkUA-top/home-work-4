@@ -598,13 +598,16 @@ body {
   outline: none;
   border: 1px solid #2196f3;
 }
+.modal__input:focus + .modal__icons {
+  fill: #2196f3;
+}
 .modal__icons {
   position: absolute;
   top: 29px;
   left: 12px;
   fill: #212121;
 }
-.modal__icons:focus {
+.modal__icons:hover {
   fill: #2196f3;
 }
 .modal__comment {

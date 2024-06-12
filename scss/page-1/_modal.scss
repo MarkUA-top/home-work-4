@@ -76,13 +76,16 @@
     outline: none;
     border: 1px solid $wathbtbg;
   }
+  &__input:focus + &__icons {
+    fill: $wathbtbg;
+  }
   &__icons {
     position: absolute;
     top: 29px;
     left: 12px;
     fill: $comandname;
   }
-  &__icons:focus {
+  &__icons:hover {
     fill: $wathbtbg;
   }
   &__comment {
