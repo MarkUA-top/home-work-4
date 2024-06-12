@@ -60,6 +60,7 @@
   &__sublink {
     color: $headermail;
     @extend %text;
+    display: flex;
   }
   &__sublist {
     display: flex;
@@ -69,6 +70,7 @@
   &__subicon {
     fill: $headermail;
     margin-right: 10px;
+    display: block;
     margin-top: auto;
     margin-bottom: auto;
   }

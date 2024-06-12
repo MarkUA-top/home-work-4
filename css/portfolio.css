@@ -133,6 +133,7 @@ body {
 }
 .header__sublink {
   color: #757575;
+  display: flex;
 }
 .header__sublist {
   display: flex;
@@ -142,6 +143,7 @@ body {
 .header__subicon {
   fill: #757575;
   margin-right: 10px;
+  display: block;
   margin-top: auto;
   margin-bottom: auto;
 }
