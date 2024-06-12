@@ -107,6 +107,28 @@ body {
   letter-spacing: 0.96px;
 }
 
+@keyframes zoom-hero {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes flip-command {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
 .header {
   padding-top: 23px;
   padding-bottom: 24px;
@@ -197,6 +219,7 @@ body {
   margin-bottom: 30px;
   text-transform: uppercase;
   line-height: 1.36;
+  animation: zoom-hero 2.5s infinite;
 }
 .hero__button {
   color: #fff;
@@ -307,6 +330,7 @@ body {
   width: 270px;
   height: 260px;
   margin-bottom: 30px;
+  animation: flip-command 2.5s infinite;
 }
 .command__title {
   color: #212121;
@@ -635,6 +659,7 @@ body {
   background: rgba(0, 0, 0, 0.5);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
+  transition: 750ms cubic-bezier(0.4, 0, 0.2, 1) opacity;
   position: fixed;
   top: 0;
   left: 0;
