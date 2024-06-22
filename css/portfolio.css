@@ -115,11 +115,29 @@ body {
   color: #000;
 }
 .header__navagation {
-  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .header__navagation {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__navagation {
+    width: 517px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__navagation {
+    width: 933px;
+  }
 }
 .header__list {
   display: flex;
   gap: 50px;
+  align-items: center;
 }
 .header__link {
   color: #212121;
@@ -153,6 +171,12 @@ body {
   display: flex;
   align-items: center;
   gap: 30px;
+  gap: 10px;
+}
+@media screen and (max-width: 1199px) {
+  .header__sublist {
+    flex-direction: column;
+  }
 }
 .header__subicon {
   fill: #757575;

@@ -3,42 +3,65 @@
   padding-bottom: 94px;
   background-color: $pf-bg;
 
-&__list {
-  display: flex;
-  gap: 30px;
-}
+  &__list {
+    display: flex;
+    gap: 30px;
 
-&__item:nth-child(1)::before {
-  content: url("../image/group1.webp");
-  display: block;
-}
+    @media screen and (max-width: 1199px) {
+      flex-wrap: wrap;
+    }
 
-&__item:nth-child(2)::before {
-  content: url("../image/group2.webp");
-  display: block;
-}
+    @media screen and (min-width: 1200px) {
+      flex-direction: row;
+    }
+  }
 
-&__item:nth-child(3)::before {
-  content: url("../image/group3.webp");
-  display: block;
-}
+  &__box {
+    background-color: $portfoliobutton;
+    height: 120px;
+    border-radius: 4px;
+    // padding-top: 50%;
+    // padding-left: 50%;
 
-&__item:nth-child(4)::before {
-  content: url("../image/group4.webp");
-  display: block;
-}
+    @media screen and (min-width: 480px) {
+      width: 450px;
+    }
+    @media screen and (min-width: 768px) {
+      width: 354px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
+  }
 
-&__title {
-  color: $comandname;
-  margin-bottom: 10px;
-  margin-top: 30px;
-  @extend %text;
-  text-transform: uppercase;
-}
+  &__title {
+    color: $comandname;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    @extend %text;
+    text-transform: uppercase;
 
-&__text {
-  color: $comandtext;
-  @extend %text;
-  line-height: 1.71;
-}
+    @media screen and (max-width: 767px) {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__text {
+    color: $comandtext;
+    @extend %text;
+    line-height: 1.71;
+
+    @media screen and (min-width: 480px) {
+      width: 450px;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
+  }
 }

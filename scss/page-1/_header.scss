@@ -20,12 +20,26 @@
   }
 
   &__navagation {
-    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+     opacity: 0;
+     z-index: -1;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 517px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 933px;
+    }
   }
 
   &__list {
     display: flex;
     gap: 50px;
+    align-items: center;
   }
 
   &__link {
@@ -66,6 +80,11 @@
     display: flex;
     align-items: center;
     gap: 30px;
+
+    @media screen and (max-width: 1199px) {
+      flex-direction: column;
+    }
+    gap: 10px;
   }
   &__subicon {
     fill: $headermail;
