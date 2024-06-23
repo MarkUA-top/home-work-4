@@ -67,7 +67,7 @@ body {
   font-family: Roboto;
 }
 
-.modal__text, .footer__link, .footer__address, .features__text, .features__title, .header__sublink, .header__link {
+.footer__link, .footer__address, .features__text, .features__title, .header__sublink, .header__link {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
@@ -119,6 +119,12 @@ body {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.96px;
+}
+
+.modal__text {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.36px;
 }
 
 @keyframes zoom-hero {
@@ -817,6 +823,12 @@ body {
   height: 581px;
   transition: 500ms cubic-bezier(0.4, 0, 0.2, 1) transform;
 }
+@media screen and (max-width: 1199px) {
+  .modal__window {
+    width: 450px;
+    height: 609px;
+  }
+}
 .modal__close {
   background-color: transparent;
   border: 1px solid #afb1b8;
@@ -859,6 +871,12 @@ body {
   border-radius: 4px;
   border: 1px solid #afb1b8;
 }
+@media screen and (max-width: 1199px) {
+  .modal__input {
+    width: 370px;
+    height: 40px;
+  }
+}
 .modal__input:focus {
   outline: none;
   border: 1px solid #2196f3;
@@ -886,6 +904,12 @@ body {
   line-height: 1.17;
   resize: none;
 }
+@media screen and (max-width: 1199px) {
+  .modal__comment {
+    width: 370px;
+    height: 120px;
+  }
+}
 .modal__comment:focus {
   outline: none;
   border: 1px solid #2196f3;
@@ -898,12 +922,10 @@ body {
 }
 .modal__text {
   color: #757575;
-  font-family: Roboto;
-  font-style: normal;
-  line-height: 171.429%;
 }
 .modal__link {
   color: #2196f3;
+  text-decoration-line: underline;
 }
 .modal__button {
   color: #fff;
