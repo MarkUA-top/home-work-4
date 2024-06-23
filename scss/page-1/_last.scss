@@ -13,6 +13,7 @@
     }
 
     @media screen and (min-width: 768px) {
+      flex-direction: column;
       gap: 60px;
     }
     @media screen and (min-width: 1200px) {
@@ -87,9 +88,9 @@
     color: $pf-bg;
   }
   &__subbox {
-    margin-top: 12px;
+    margin-top: 5px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       margin-top: 60px;
     }
     @media screen and (max-width: 1199px) {
@@ -99,7 +100,7 @@
   }
   &__subtext {
     color: $pf-bg;
-    @extend %text-product-name;
+    @extend %last-connect;
     text-transform: uppercase;
     margin-bottom: 20px;
     width: 146px;
@@ -149,7 +150,7 @@
   }
   &__subtitle {
     color: $pf-bg;
-    @extend %text-product-name;
+    @extend %last-connect;
     font-style: normal;
     line-height: normal;
     text-transform: uppercase;

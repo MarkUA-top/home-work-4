@@ -85,7 +85,7 @@ body {
   letter-spacing: 0.48px;
 }
 
-.footer__subbutton, .footer__subtitle, .footer__subtext, .work__text, .hero__button {
+.footer__subbutton, .work__text, .hero__button {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.54px;
@@ -125,6 +125,12 @@ body {
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.36px;
+}
+
+.footer__subtitle, .footer__subtext {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
 }
 
 @keyframes zoom-hero {
@@ -170,7 +176,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__navagation {
     opacity: 0;
     z-index: -1;
@@ -577,6 +583,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .footer__flex {
+    flex-direction: column;
     gap: 60px;
   }
 }
@@ -655,9 +662,9 @@ body {
   color: #fff;
 }
 .footer__subbox {
-  margin-top: 12px;
+  margin-top: 5px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer__subbox {
     margin-top: 60px;
   }
