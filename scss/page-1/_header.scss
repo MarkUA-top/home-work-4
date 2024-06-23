@@ -19,14 +19,9 @@
     color: $studio;
   }
 
-  &__navagation {
+  &__navigation {
     display: flex;
     justify-content: space-between;
-
-    @media screen and (max-width: 767px) {
-     opacity: 0;
-     z-index: -1;
-    }
 
     @media screen and (min-width: 768px) {
       width: 517px;
@@ -40,6 +35,10 @@
     display: flex;
     gap: 50px;
     align-items: center;
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
   }
 
   &__link {
@@ -80,6 +79,10 @@
     display: flex;
     align-items: center;
     gap: 30px;
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
 
     @media screen and (max-width: 1199px) {
       flex-direction: column;
