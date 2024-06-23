@@ -17,6 +17,7 @@
     }
     @media screen and (min-width: 1200px) {
       flex-direction: row;
+      gap: 93px;
     }
   }
 
@@ -32,6 +33,9 @@
     @media screen and (min-width: 768px) {
       display: flex;
       gap: 165px; 
+    }
+    @media screen and (min-width: 1200px) {
+      gap: 70px;
     }
   }
 
@@ -84,6 +88,10 @@
   }
   &__subbox {
     margin-top: 12px;
+
+    @media screen and (max-width: 768px) {
+      margin-top: 60px;
+    }
     @media screen and (max-width: 1199px) {
       margin-left: auto;
       margin-right: auto;
@@ -95,6 +103,7 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     width: 146px;
+
     @media screen and (max-width: 1199px) {
       margin-left: auto;
       margin-right: auto;
@@ -103,6 +112,12 @@
   &__iconlist {
     display: flex;
     gap: 10px;
+    width: 206px;
+
+    @media screen and (max-width: 1199px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   &__iconitem {
     border-radius: 50%;

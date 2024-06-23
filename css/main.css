@@ -577,6 +577,7 @@ body {
 @media screen and (min-width: 1200px) {
   .footer__flex {
     flex-direction: row;
+    gap: 93px;
   }
 }
 .footer__box {
@@ -592,6 +593,11 @@ body {
   .footer__table {
     display: flex;
     gap: 165px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__table {
+    gap: 70px;
   }
 }
 .footer__address {
@@ -645,6 +651,11 @@ body {
 .footer__subbox {
   margin-top: 12px;
 }
+@media screen and (max-width: 768px) {
+  .footer__subbox {
+    margin-top: 60px;
+  }
+}
 @media screen and (max-width: 1199px) {
   .footer__subbox {
     margin-left: auto;
@@ -666,6 +677,13 @@ body {
 .footer__iconlist {
   display: flex;
   gap: 10px;
+  width: 206px;
+}
+@media screen and (max-width: 1199px) {
+  .footer__iconlist {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .footer__iconitem {
   border-radius: 50%;
