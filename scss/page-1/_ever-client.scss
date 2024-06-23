@@ -2,9 +2,6 @@
   padding-top: 94px;
   padding-bottom: 94px;
   background: $pf-bg;
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
 
   &__text {
     color: $comandname;
