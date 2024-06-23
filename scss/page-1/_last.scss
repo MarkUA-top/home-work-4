@@ -4,40 +4,101 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
+  &__flex {
+    display: flex;
+
+    @media screen and (min-width: 480px) {
+      flex-direction: column;
+      gap: 60px;
+    }
+
+    @media screen and (min-width: 768px) {
+      gap: 60px;
+    }
+    @media screen and (min-width: 1200px) {
+      flex-direction: row;
+    }
+  }
+
+  &__box {
+    width: 232px;
+    @media screen and (max-width: 768px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &__table {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      gap: 165px; 
+    }
+  }
+
   &__address {
     color: $comandbg;
     margin-top: 20px;
     @extend %text;
     line-height: 1.71;
     font-style: normal;
+    width: 207px;
+
+    @media screen and (max-width: 1199px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   &__link {
     color: $comandtext;
     margin-top: 9px;
     @extend %text;
     line-height: 1.71;
+    width: 134px;
   }
   &__link:hover {
     color: $wathbtbg;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__subitem {
+    width: 135px;
+
+    @media screen and (max-width: 1199px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   &__logo {
     color: $wathbtbg;
     margin-right: 93px;
     @extend %text-logo;
     font-family: Raleway;
+    display: block;
+    width: 154px;
+    @media screen and (max-width: 1199px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   &__studio {
     color: $pf-bg;
   }
   &__subbox {
     margin-top: 12px;
+    @media screen and (max-width: 1199px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   &__subtext {
     color: $pf-bg;
     @extend %text-product-name;
     text-transform: uppercase;
     margin-bottom: 20px;
+    width: 146px;
+    @media screen and (max-width: 1199px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   &__iconlist {
     display: flex;
@@ -65,7 +126,11 @@
   }
   &__form {
     padding-top: 12px;
-    margin-left: 80px;
+
+    @media screen and (max-width: 1199px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
   &__subtitle {
     color: $pf-bg;
@@ -74,11 +139,18 @@
     line-height: normal;
     text-transform: uppercase;
     margin-bottom: 20px;
+    @media screen and (max-width: 1199px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   &__subcontainer {
     display: flex;
     gap: 12px;
+    @media screen and (max-width: 1199px) {
+      flex-direction: column;
+    }
   }
 
   &__subinput {
@@ -90,7 +162,12 @@
     width: 358px;
     color: $pf-bg;
     line-height: 1.25;
-    @extend %text-button
+    @extend %text-button;
+    @media screen and (max-width: 1199px) {
+      margin-left: auto;
+      margin-right: auto;
+      width: 450px;
+    }
   }
   &__subinput:focus {
     outline: none;
@@ -108,11 +185,16 @@
     padding: 10px 28px;
     background-color: $wathbtbg;
     display: flex;
+    width: 200px;
     gap: 10px;
     align-items: center;
     border-radius: 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: none;
+    @media screen and (max-width: 1199px) {
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   &__subbutton:hover,
   &__subbutton:focus {
@@ -121,8 +203,5 @@
   }
   &__subicon {
     fill: $pf-bg;
-  }
-  .flex {
-    display: flex;
   }
 }
