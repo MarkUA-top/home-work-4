@@ -244,7 +244,7 @@ body {
   margin-bottom: 30px;
   --cards: 9;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .product__item {
     width: 450px;
     height: 404px;
@@ -320,7 +320,7 @@ body {
 .footer__flex {
   display: flex;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .footer__flex {
     flex-direction: column;
     gap: 60px;
