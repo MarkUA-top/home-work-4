@@ -535,11 +535,6 @@ body {
   padding-bottom: 94px;
   background: #fff;
 }
-@media screen and (max-width: 767px) {
-  .client {
-    display: none;
-  }
-}
 .client__text {
   color: #212121;
   text-align: center;
@@ -567,6 +562,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .client__item {
+    width: 210px;
+  }
 }
 @media screen and (min-width: 768px) {
   .client__item {
