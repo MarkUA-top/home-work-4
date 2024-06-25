@@ -24,24 +24,23 @@
     transform: rotate(360deg) translate(-50%, -50%);
     padding: 40px;
     transition: 500ms cubic-bezier(0.4, 0, 0.2, 1) transform;
+    top: 50%;
+    left: 50%;  
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 479px) {
+      width: 300px;
+    }
+    @media screen and (min-width: 480px) {
       width: 450px;
       height: 609px;
-      top: 50%;
-      left: 50%;
     }
     @media screen and (min-width: 768px) {
       width: 450px;
       height: 609px;
-      top: 50%;
-      left: 50%;
     }
     @media screen and (min-width: 1200px) {
       width: 528px;
       height: 581px;
-      top: 50%;
-      left: 50%;
     }
   }
   &__close {
@@ -82,14 +81,18 @@
   }
   &__input {
     padding-left: 35px;
-    width: 448px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid $comandtext;
-
-    @media screen and (max-width: 1199px) {
+    
+    @media screen and (max-width: 479px) {
+      width: 220px;
+    }
+    @media screen and (min-width: 480px) {
       width: 370px;
-      height: 40px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 448px;
     }
   }
   &__input:focus {
@@ -110,7 +113,6 @@
     fill: $wathbtbg;
   }
   &__comment {
-    width: 448px;
     height: 120px;
     border-radius: 4px;
     border: 1px solid $comandtext;
@@ -120,9 +122,14 @@
     line-height: 1.17;
     resize: none;
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: 479px) {
+      width: 220px;
+    }
+    @media screen and (min-width: 480px) {
       width: 370px;
-      height: 120px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 448px;
     }
   }
   &__comment:focus {

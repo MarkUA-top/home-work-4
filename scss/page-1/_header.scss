@@ -13,6 +13,10 @@
     margin-right: 93px;
     font-family: Raleway;
     @extend %text-logo;
+
+    @media screen and (max-width: 320px) {
+      margin-right: 0;
+    }
   }
 
   &__logocolor {
@@ -22,8 +26,10 @@
   &__navigation {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 
     @media screen and (min-width: 768px) {
+      width: 100%;
       width: 517px;
     }
     @media screen and (min-width: 1200px) {

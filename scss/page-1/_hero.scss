@@ -20,7 +20,7 @@
     margin-bottom: 30px;
     // animation: zoom-hero 2.5s infinite;
     @media screen and (max-width: 1199px) {
-      width: 360px;
+      max-width: 360px;
       font-size: 26px;
       font-weight: 900;
       line-height: 161.538%;
