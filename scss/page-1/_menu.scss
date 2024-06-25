@@ -29,6 +29,7 @@
   &__container {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     padding-top: 48px;
 
     @media screen and (min-width: 480px) {
@@ -55,11 +56,11 @@
     gap: 32px;
     flex-direction: column;
     justify-content: left;
-    margin-bottom: 302px;
+    // margin-bottom: 302px;
 
-    @media screen and (max-width: 479px) {
-      margin-bottom: 202px;
-    }
+    // @media screen and (max-width: 479px) {
+    //   margin-bottom: 202px;
+    // }
   }
   &__item {
     max-width: 207px;
@@ -97,7 +98,7 @@
     padding-right: 10px;
     
     @media screen and (max-width: 479px) {
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 500;
       line-height: 20px;
     }

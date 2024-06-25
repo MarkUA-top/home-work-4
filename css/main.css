@@ -1153,6 +1153,7 @@ body {
 .menu__container {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   padding-top: 48px;
 }
 @media screen and (min-width: 480px) {
@@ -1177,12 +1178,6 @@ body {
   gap: 32px;
   flex-direction: column;
   justify-content: left;
-  margin-bottom: 302px;
-}
-@media screen and (max-width: 479px) {
-  .menu__list {
-    margin-bottom: 202px;
-  }
 }
 .menu__item {
   max-width: 207px;
@@ -1218,7 +1213,7 @@ body {
 }
 @media screen and (max-width: 479px) {
   .menu__social-link {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 20px;
   }
