@@ -44,7 +44,6 @@ button {
 @media screen and (min-width: 320px) {
   .container {
     width: 320px;
-    padding: 0 5px;
   }
 }
 @media screen and (min-width: 480px) {
@@ -527,6 +526,14 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
+@media screen and (max-width: 1199px) {
+  .command__name {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.84px;
+    margin-bottom: 30px;
+  }
+}
 .command__item {
   background-color: #fff;
   text-align: center;
@@ -609,6 +616,14 @@ body {
   text-align: center;
   font-family: Roboto;
   margin-bottom: 50px;
+}
+@media screen and (max-width: 1199px) {
+  .client__text {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.84px;
+    margin-bottom: 30px;
+  }
 }
 .client__list {
   display: flex;
@@ -862,7 +877,7 @@ body {
   .footer__subinput {
     margin-left: auto;
     margin-right: auto;
-    max-width: 450px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -998,7 +1013,7 @@ body {
 }
 @media screen and (max-width: 479px) {
   .modal__input {
-    width: 220px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 480px) {
@@ -1039,7 +1054,7 @@ body {
 }
 @media screen and (max-width: 479px) {
   .modal__comment {
-    width: 220px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 480px) {
@@ -1163,6 +1178,11 @@ body {
   flex-direction: column;
   justify-content: left;
   margin-bottom: 302px;
+}
+@media screen and (max-width: 479px) {
+  .menu__list {
+    margin-bottom: 202px;
+  }
 }
 .menu__item {
   max-width: 207px;

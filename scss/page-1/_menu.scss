@@ -56,6 +56,10 @@
     flex-direction: column;
     justify-content: left;
     margin-bottom: 302px;
+
+    @media screen and (max-width: 479px) {
+      margin-bottom: 202px;
+    }
   }
   &__item {
     max-width: 207px;
