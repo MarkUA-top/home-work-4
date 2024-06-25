@@ -41,7 +41,7 @@ button {
   margin: 0 auto;
   outline: solid red;
 }
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 320px) {
   .container {
     width: 320px;
     padding: 0 5px;
@@ -184,9 +184,25 @@ body {
   }
 }
 .header {
-  padding-top: 23px;
-  padding-bottom: 24px;
   border: 1px solid #ececec;
+}
+@media screen and (min-width: 420px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding-top: 23px;
+    padding-bottom: 24px;
+  }
 }
 .header__box {
   display: flex;
@@ -298,8 +314,18 @@ body {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
+}
+@media screen and (min-width: 320px) {
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 .hero__title {
   color: #fff;
@@ -344,9 +370,19 @@ body {
 }
 
 .features {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: #fff;
+}
+@media screen and (min-width: 320px) {
+  .features {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .features__list {
   display: flex;
@@ -458,9 +494,19 @@ body {
 }
 
 .command {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: #f5f4fa;
+}
+@media screen and (min-width: 320px) {
+  .command {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .command {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .command__list {
   display: flex;
@@ -544,9 +590,19 @@ body {
 }
 
 .client {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background: #fff;
+}
+@media screen and (min-width: 320px) {
+  .client {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .client {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .client__text {
   color: #212121;

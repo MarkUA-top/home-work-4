@@ -3,7 +3,7 @@
   margin: 0 auto;
   outline: solid red;
 
-@media screen and (max-width: 479px) {
+@media screen and (min-width: 320px) {
   width: 320px;
   padding: 0 5px;
 }
