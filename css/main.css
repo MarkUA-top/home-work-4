@@ -274,11 +274,15 @@ body {
   color: #757575;
   display: flex;
 }
+@media screen and (max-width: 1199px) {
+  .header__phone {
+    margin-right: 15px;
+  }
+}
 .header__sublist {
   display: flex;
   align-items: center;
   gap: 30px;
-  gap: 10px;
 }
 @media screen and (max-width: 767px) {
   .header__sublist {
@@ -288,6 +292,7 @@ body {
 @media screen and (max-width: 1199px) {
   .header__sublist {
     flex-direction: column;
+    gap: 10px;
   }
 }
 .header__subicon {
@@ -873,11 +878,18 @@ body {
   color: #fff;
   line-height: 1.25;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 479px) {
   .footer__subinput {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .footer__subinput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {

@@ -33,7 +33,7 @@
   &__table {
     @media screen and (min-width: 768px) {
       display: flex;
-      gap: 165px; 
+      gap: 165px;
     }
     @media screen and (min-width: 1200px) {
       gap: 70px;
@@ -179,10 +179,15 @@
     line-height: 1.25;
     @extend %text-button;
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: 479px) {
       margin-left: auto;
       margin-right: auto;
       width: 100%;
+    }
+    @media screen and (min-width: 480px) {
+      margin-left: auto;
+      margin-right: auto;
+      width: 450px;
     }
     @media screen and (min-width: 1200px) {
       width: 358px;
