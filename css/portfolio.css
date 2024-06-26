@@ -133,7 +133,7 @@ body {
 .header {
   border: 1px solid #ececec;
 }
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 480px) {
   .header {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -223,6 +223,12 @@ body {
   display: flex;
 }
 @media screen and (max-width: 1199px) {
+  .header__sublink {
+    font-size: 12px;
+    letter-spacing: 0.24px;
+  }
+}
+@media screen and (max-width: 1199px) {
   .header__phone {
     margin-right: 15px;
   }
@@ -281,6 +287,7 @@ body {
 @media screen and (min-width: 768px) {
   .pages__list {
     justify-content: center;
+    margin-right: 0px;
   }
 }
 .pages__button {
@@ -311,7 +318,6 @@ body {
   background-color: #fff;
   border: 1px solid #eee;
   position: relative;
-  margin-bottom: 30px;
   --cards: 9;
 }
 @media screen and (min-width: 320px) {
@@ -679,15 +685,11 @@ body {
   }
 }
 .menu__container {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 48px;
-}
-@media screen and (min-width: 480px) {
-  .menu__container {
-    padding-left: 30px;
-  }
 }
 .menu__close {
   position: absolute;
@@ -706,12 +708,6 @@ body {
   gap: 32px;
   flex-direction: column;
   justify-content: left;
-  margin-bottom: 302px;
-}
-@media screen and (max-width: 479px) {
-  .menu__list {
-    margin-bottom: 170px;
-  }
 }
 .menu__item {
   max-width: 207px;

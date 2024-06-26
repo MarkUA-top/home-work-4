@@ -43,19 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    @media screen and (max-width: 479px) {
-      width: 100%;
-    }
-    @media screen and (min-width: 480px) {
-      width: 210px;
-    }
-    @media screen and (min-width: 768px) {
-      width: 226px;
-    }
-    @media screen and (min-width: 1200px) {
-      width: 170px;
-    }
+    width: calc((100% - 30px) / 2);
   }
   &__item:hover {
     border: 1px solid $wathbtbg;
