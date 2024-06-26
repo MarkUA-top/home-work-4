@@ -4,6 +4,7 @@
   &__list {
     --grid-gap: 30px;
     flex-wrap: wrap;
+    justify-content: start;
   }
 
   &__item {
