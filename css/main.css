@@ -320,39 +320,40 @@ body {
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/heroimg.webp);
   background-repeat: no-repeat;
-  position: center, center;
+  background-position: center;
+  background-size: cover;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
 @media screen and (min-width: 320px) {
   .hero {
-    background-image: url(../image/phone/heroimg@phone-1x.webp);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/phone/heroimg@phone-1x.webp);
   }
 }
 @media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../image/phone/heroimg@phone-2x.webp);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/phone/heroimg@phone-2x.webp);
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: url(../image/table/heroimg@table-1x.webp);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/table/heroimg@table-1x.webp);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../image/table/heroimg@table-2x.webp);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/table/heroimg@table-2x.webp);
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: url(../image/desktop/heroimg@desktop-1x.webp);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/desktop/heroimg@desktop-1x.webp);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../image/desktop/heroimg@desktop-2x.webp);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/desktop/heroimg@desktop-2x.webp);
   }
 }
 @media screen and (min-width: 320px) {
